@@ -18,7 +18,7 @@
     <main class="container_sign_up">
         <article id="article_sign_up">
             <h1></h1>
-            <h2>YA ESTAS REGISTRADX</h2>
+            <h2>YA ESTAS REGISTRADE</h2>
             <i class="far fa-check-circle fa-3x"></i>
             <p>MUCHAS GRACIAS</p>
         </article>
