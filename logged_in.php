@@ -15,7 +15,7 @@ if ($_SESSION['user_valid'] !== true) {
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Poppins:wght@500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/cc35ccca45.js" crossorigin="anonymous"></script>
-    <title>Logo Impsum</title>
+    <title>Bienvenide</title>
 </head>
 
 <body>
