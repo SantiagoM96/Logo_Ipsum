@@ -29,13 +29,13 @@
                     <input type="date" name="date_of_birth" id="date_of_birth" required>
 
                     <label for="email">E-mail:</label>
-                    <input type="email" name="email" id="email" placeholder="tuemail@email.com">
+                    <input type="email" name="email" id="email" placeholder="tuemail@email.com" required>
 
                     <label for="user_name">Nombre de Usuarie:</label>
-                    <input type="text" name="user_name" id="user_name" placeholder="Usuarie">
+                    <input type="text" name="user_name" id="user_name" placeholder="Usuarie" required>
 
                     <label for="password">Contraseña:</label>
-                    <input type="password" name="password" id="password" placeholder="Contraseña">
+                    <input type="password" name="password" id="password" placeholder="Contraseña" required>
                     <input type="submit" value="Crear Cuenta">
 
                 </form>

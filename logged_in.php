@@ -1,7 +1,7 @@
 <?php
 session_start();
 if ($_SESSION['user_valid'] !== true) {
-    header('Location: index.php');
+    header('Location: form_login.php');
     die();
 }
 ?>
@@ -22,21 +22,23 @@ if ($_SESSION['user_valid'] !== true) {
     <header>
         <?php require_once 'partials/nav.php' ?>
     </header>
-    <main class="logged_in">
-        <?php if (empty($_SESSION['user_valid'])) { ?>
-            <h1>¿QUIEN SOS?</h1>
-            <p>ADIOS</p>
-        <?php } else { ?>
-            <article class="article_logged_in">
-                <h1>Bievenide a ▲logoimpsum▼</h1>
-                <p>Nos alegra tenerte con nosotres</p>
+    <main class="main">
+        <section>
+            <article class="success">
+                <figure>
+                    <img src="../Logo Ipsum/assets/img/undraw_young_and_happy_hfpe.svg" alt="">
+                    <figcaption class="container_text" id="space_text">
+                        <h3>Bievenide a ▲logoimpsum▼</h3>
+                        <p>Nos alegra tenerte con nosotres</p>
+                    </figcaption>
+                </figure>
             </article>
-        <?php } ?>
-        <div class="power_off">
+            <div class="power_off">
 
-            <a href="sign_off.php"><i class="fas fa-power-off"></i></a>
-            <p>Cerrar Sesión</p>
-        </div>
+                <a href="sign_off.php"><i class="fas fa-power-off"></i></a>
+                <p>Cerrar Sesión</p>
+            </div>
+        </section>
     </main>
     <script src="assets/js/main.js"></script>
 </body>

@@ -15,14 +15,18 @@
     <header>
         <?php require_once 'partials/nav.php' ?>
     </header>
-    <main class="container_sign_up">
-        <article id="article_sign_up">
-            <h1></h1>
-            <h2>YA ESTAS REGISTRADE</h2>
-            <i class="far fa-check-circle fa-3x"></i>
-            <p>MUCHAS GRACIAS</p>
-        </article>
-
+    <main class="main">
+        <section>
+            <article class="success">
+                <figure>
+                    <img src="../Logo Ipsum/assets/img/undraw_super_thank_you_obwk.svg" alt="">
+                    <figcaption class="container_text">
+                        <h3>¡Ya estas registrade! Puede iniciar sesión cuando lo desees.</h3>
+                        <a href="form_login.php" class="button">Iniciar sesión</a>
+                    </figcaption>
+                </figure>
+            </article>
+        </section>
     </main>
     <script src="assets/js/main.js"></script>
 </body>

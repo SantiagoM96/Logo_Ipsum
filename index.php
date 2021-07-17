@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Poppins:wght@500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/cc35ccca45.js" crossorigin="anonymous"></script>
-    <title>The Traveller</title>
+    <title>Logo Ipsum</title>
 </head>
 
 <body>
@@ -60,9 +60,9 @@
         <img src="assets/img/undraw_Access_account_re_8spm.svg" alt="" class="man">
         <div class="session_container">
             <p>¿Tienes una cuenta? ¡Entra!</p>
-            <a href="form_login.php">Iniciar Sesión</a>
+            <a href="form_login.php" class="button">Iniciar Sesión</a>
             <p>Si aún no, puedes:</p>
-            <a href="form_signin.php">Registrarte</a>
+            <a href="form_signin.php" class="button">Registrarte</a>
         </div>
     </section>
     <div id="buttonUp">

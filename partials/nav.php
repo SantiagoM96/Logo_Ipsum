@@ -19,17 +19,17 @@
             <ul class="social_media">
                 <li>
                     <a href="#inicio">
-                        <i class="fab fa-instagram fa-x"></i>
+                        <i class="fab fa-instagram fa-lg"></i>
                     </a>
                 </li>
                 <li>
                     <a href="#inicio">
-                        <i class="fab fa-facebook fa-x"></i>
+                        <i class="fab fa-facebook fa-lg"></i>
                     </a>
                 </li>
                 <li>
                     <a href="#inicio">
-                        <i class="fab fa-twitter fa-x"></i>
+                        <i class="fab fa-twitter fa-lg"></i>
                     </a>
                 </li>
             </ul>
